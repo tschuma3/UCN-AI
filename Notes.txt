@@ -122,9 +122,12 @@ NeuralEvolution of Augmented Topologies
         -- 1000
     -- Python Libraries
         -- Time or Datetime
+            -- Possibly to keep track of time
         -- Neat
         -- Pygame
         -- Numpy
         -- Os
         -- Pickle
         -- Random?
+        -- DirectKeys?
+            -- Possibly for mouse position
