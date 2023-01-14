@@ -1,0 +1,34 @@
+NeuralEvolution of Augmented Topologies
+    -- Inputs
+    -- Outputs
+        -- Clicking Buttons
+            -- 2 Doors
+            -- 3 Vents
+            -- Flash Light
+            -- 1 Mask
+            -- Blue Button
+                -- Camera System
+                    -- 8 Cameras
+                -- Vents System
+                    -- 3 Vents
+                -- Duct System
+                    -- 2 Ducts
+        -- Keys
+            
+    -- Activation Functions
+        -- TanH
+        -- Sigmoid
+    -- Population
+        -- 1
+        -- 100
+        -- 1000
+    -- Fitness Functions
+        -- Time
+            -- How long the ai can last
+                -- 4 minutes 30 seconds is the goal
+    -- Max Generations
+        -- 25
+        -- 50
+        -- 100
+        -- 500
+        -- 1000
