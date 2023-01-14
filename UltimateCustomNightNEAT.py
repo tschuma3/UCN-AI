@@ -7,7 +7,13 @@ import random
 import pyautogui
 from time import time
 from datetime import datetime
+import LearningTheAnimatronics
 pygame.font.init()
+
+"""
+This program trains an ai to learn to play the game Ultimate Custom Night
+"""
+
 
 #Global Variables
 GENERATION = 0
@@ -42,10 +48,11 @@ class Player:
 #Takes care of the Animatronics
 class Animatronics:
 
-    def __init__(self, x, y, pixel_Color):
+    def __init__(self, x, y, pixel_Color, animatronic_Knowledge):
         self.x = x
         self.y =  y
         self.pixel_Color = pixel_Color
+        self.animatronic_Knowledge = animatronic_Knowledge
 
     #Finds the location of each animatronic
     def animatronic_Location(self, pixel_Color):
@@ -56,10 +63,13 @@ class Animatronics:
         pass
 
 #Runs the main loop
-def main(genomes, config):
+def main(self, genomes, config):
     #Keeps track of generations and increments by 1
     global GENERATION
     GENERATION += 1
+
+    #Sets the knowledge of each animatronic
+    animatronic_Knowledge = LearningTheAnimatronics()
 
     #Set ups lists
     neural_Networks = [] #Keeps track of the neural networks
