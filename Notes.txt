@@ -112,3 +112,11 @@ NeuralEvolution of Augmented Topologies
         -- 100
         -- 500
         -- 1000
+    -- Python Libraries
+        -- Time or Datetime
+        -- Neat
+        -- Pygame
+        -- Numpy
+        -- Os
+        -- Pickle
+        -- Random?
