@@ -1,5 +1,10 @@
 References
     -- https://www.newsweek.com/ultimate-custom-night-guide-controls-cutscenes-tips-easter-eggs-1000000
+    -- Application Program Interface (API)
+        -- https://vention.io/resources/guides/python-api-reference-v4-1-248
+        -- https://www.reddit.com/r/learnpython/comments/qx7tu0/how_to_read_data_from_video_game/
+        -- https://anderfernandez.com/en/blog/how-to-create-api-python/#:~:text=When%20creating%20our%20API%20in%20Python%20we%20will,points%20and%20each%20one%20does%20different%20things.%20
+    https://github.com/Qkrisi/ktanemod-ultimate-custom-night
 NeuralEvolution of Augmented Topologies
     -- Inputs
         -- Animatronics
