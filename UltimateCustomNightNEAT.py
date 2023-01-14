@@ -6,9 +6,29 @@ import pickle
 import random
 from time import time
 from datetime import datetime
+pygame.font.init()
+
+#Global Variables
+GENERATION = 0
 
 #Runs the main loop
 def main(genomes, config):
+    #Keeps track of generations and increments by 1
+    global GENERATION
+    GENERATION += 1
+    
+    #Set ups lists
+    neural_Networks = [] #Keeps track of the neural networks
+    genome = [] #Keeps track of the genome
+    player = [] #Keeps track of the player/mouse
+
+    #Keeps the neural networks, genome, and player together
+    for ge_Id, ge in genomes:
+        neural_Network = neat.nn.FeedForwardNetwork.create(ge, config) 
+        neural_Networks.append(neural_Network)
+        #  player.append(<--Something Goes Here-->)
+        ge.fitness = 0
+        genome.append(ge)
     pass
 
 #Helps load the configuration file
