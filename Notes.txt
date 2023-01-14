@@ -8,6 +8,12 @@ References
     -- Code Bullet
         -- https://www.youtube.com/watch?v=ldaescGA1dY
         -- https://www.youtube.com/watch?v=fURH8z3hb6Y&t=362s
+    -- Training
+        -- Through Videos
+            -- https://cs.stackexchange.com/questions/88079/how-to-feed-videos-to-a-neural-network#:~:text=For%20example%20a%20neural%20network%20is%20trained%20using,bikes.%20So%20these%20cars%20and%20bikes%20are%20anomalies.
+            -- https://medium.com/smileinnovation/training-neural-network-with-image-sequence-an-example-with-video-as-input-c3407f7a0b0f
+            -- Example Video
+                -- https://www.youtube.com/watch?v=oGZGfZIVxn0
 NeuralEvolution of Augmented Topologies
     -- Inputs
         -- Animatronics
@@ -131,3 +137,4 @@ NeuralEvolution of Augmented Topologies
         -- Random?
         -- DirectKeys?
             -- Possibly for mouse position
+        -- PyAutoGui
