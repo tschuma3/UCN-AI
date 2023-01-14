@@ -1,5 +1,71 @@
+References
+    -- https://www.newsweek.com/ultimate-custom-night-guide-controls-cutscenes-tips-easter-eggs-1000000
 NeuralEvolution of Augmented Topologies
     -- Inputs
+        -- Animatronics
+            -- FNAF
+                -- Golden Freddy: Don't stare at him when he appears, pull up your Monitor.
+                -- Freddy Fazbear: He comes from the left and moves toward the door. Shut the door and he goes away. He moves faster in a warmer office.
+                -- Chica: She'll stay in the kitchen as long as you change the music box when she stops making noise. If you fail, she leaves the kitchen and never goes back.
+                -- Bonnie: Will scramble your cameras for a long time if your camera is on him when he peeks behind the curtain. Watch the figure on your desk, and don't go to the Cove if Bonnie is displayed.
+                -- Foxy: He'll slip pieces of himself through any opening if he's not watched. If all four pieces get in your office, he'll scare you the next time you bring up the Monitor.
+                -- Phone Guy: He calls and makes noise. Watch for the mute button and click it as fast as possible.
+            -- FNAF 2
+                -- Balloon Boy: He likes the side vent so keep that closed and wait for him to go away. If he gets in, he disables your flashlight.
+                -- JJ: Has similar behavior to Balloon Boy, but she disables door controls instead of the flashlight.
+                -- Puppet/Marionette: As usual, keep an eye on the Music Box. If she escapes she can't get back in and your ventilation drains at a faster rate.
+                -- Mangle: Enters through the vents and doesn't leave once she arrives. If she enters, she'll make noise and jumpscare you. Use the vent snare to keep her away.
+                -- Withered Chica: Can be blocked using the vent snare or door and can be tracked with radar. She has no audio cue and will get stuck in the vent door if she gets there. This prevents Ennard, Molten Freddy and Springtrap from getting in, but Mangle is still open for business. She can eventually wiggle her way out to jumpscare you.
+                -- Toy Bonnie: He enters through the trapdoor on the right. Use the Freddy mask and look directly at him.
+                -- Toy Chica: Like Toy Bonnie except she enters to the left and is faster. She's vulnerable to direct contact with the Freddy mask.
+                -- Withered Bonnie: He sneaks in while you watch the Monitor, but he has audio cues and disrupts the screen. Put on the Freddy mask quickly and he'll go away.
+                -- Toy Freddy: Toy Freddy is playing Five Nights With Mr. Hugs in the Parts and Services room. Click the cameras on his screen to make sure Hugs doesn't get into Freddy's office. If he gets a game over, he'll come to the office and scare you.
+            -- FNAF 3
+                -- Springtrap: He climbs through the front vent. He's silent, so all you can do is close the door when you see him.
+                -- Phantom Freddy: He just shows up in your office. Shine your flashlight at him.
+                -- Phantom Mangle: Appears at random on your Monitor, so just close the Monitor when it shows up. If you don't do that, Phantom Mangle comes in your office to make noise.
+                -- Phantom Balloon Boy: He appears on the Monitor at random. Close it or change cameras to avoid a scare.
+            -- FNAF 4
+                -- Nightmare Fredbear/Nightmare: They can only be seen once they reach your door with Fredbear on the left and Nightmare on the right. Close the doors on them quickly.
+                -- Nightmare Puppet/Nightmarionne: He appears at random areas in the office. Avoid mousing over where he goes.
+                -- Nightmare Balloon Boy: If he's slouched he's not dangerous. If he stands up, shine your light on him.
+                -- Jack-O-Chica: Can appear at left and right doors simultaneously. You have to close both at once to make her go away.
+                -- Nightmare Freddy: Mini-Freddies will fill your desk, and you must shine your light on them.
+                -- Nightmare Chica: She slowly approaches with her mouth open, but you can use the Heater to push her back.
+                -- Nightmare Bonnie: They come from the right and only attack once per night in a random order. Keep the right door shut or purchase the corresponding Plush from the Prize Counter. You must buy each Plush in the order the characters appear. Get Faz-Coins by defending against other animatronics or seeing them on your cameras. Use these to buy the Plush.
+                -- Nightmare Mangle: They come from the right and only attack once per night in a random order. Keep the right door shut or purchase the corresponding Plush from the Prize Counter. You must buy each Plush in the order the characters appear. Get Faz-Coins by defending against other animatronics or seeing them on your cameras. Use these to buy the Plush.
+                -- Plushtrap: He appears on a screen and must be scared out of his chair with a click. If you don't do it fast enough, he'll get you.
+            -- FNAF World
+                -- Old Man Consequences: Catch a fish with the "C" key.
+                -- Dee Dee: Adds an animatronic to your game at random. Can spawn the enemies listed below.
+            -- FNAF: Sister Location
+                -- Ennard: Also in the vents and only trackable in motion. He makes a squeak noise before attacking. Close the vent.
+                -- Funtime Foxy: His Pirate's Cove sign lists a showtime at random. That time is when he'll come to your office and kill you. If you're watching him as the hour turns toward showtime, he'll stay quiet for several hours.
+                -- Baby: They come from the right and only attack once per night in a random order. Keep the right door shut or purchase the corresponding Plush from the Prize Counter. You must buy each Plush in the order the characters appear. Get Faz-Coins by defending against other animatronics or seeing them on your cameras. Use these to buy the Plush.
+                -- Ballora: She comes from the left or right and disables your cameras. Use audio cues to close the correct door before she comes in.
+                -- Bonnet: If she's summoned, click her nose when she appears on screen.
+                -- Minireena: Covers your screen at random
+                -- Lolbit: Type "LOL" when you hear his audio disturbance.
+            -- FNAF: Pizzeria Simulator
+                -- Helpy: Click him off quickly or prepare for a jumpscare.                
+                -- Lefty: He's annoyed by noise and heat. The only way to soothe him is to use the Global Music Box.
+                -- El Chip: He shows ads. Press enter to skip them.
+                -- Trash and the Gang: Just makes noise to annoy you.
+                -- Music Man: Make a lot of noise and you'll meet a cymbal-crashing demise.
+                -- Happy Frog: She climbs in the vents and heads towards the hoses in your office. Audio cues will keep her at bay 100 percent of the time. She is immune to the Heater.
+                -- Mr. Hippo: Like Happy Frog except the Heater repels him too. He's faster than Happy Frog.
+                -- Pigpatch: The same as Mr. Hippo but faster.
+                -- Nedd Bear: Same as above except he's faster than Pigpatch and is only fooled by audio 50 percent of the time.
+                -- Orville Elephant: Same as above except he's faster than Nedd Bear and is only fooled by audio 10 percent of the time.
+                -- Molten Freddy: He climbs in the vents and is very fast. However, you can track him with the Monitor and hear him. Close the vent to get rid of him.                
+                -- Rockstar Chica: She waits outside either side of the office. Double click the wet floor sign in front of the door she's at.
+                -- Rockstar Bonnie: He's mostly good and will lower your meters if you click his parrot when it comes into your office. However, sometimes he'll jumpscare you if you do that.
+                -- Rockstar Freddy: He demands Faz-Coins and you must pay him. If you can't, turn up the heat for a few seconds.
+                -- Funtime Chica: She poses and you can't get rid of her, but she won't jumpscare you.
+                -- William Afton: He only attacks once at random and comes from the right. When the lights flicker, close the door immediately.
+                -- Scrap Baby: She shows up slumped in your office. Use the shock panel to shock her if you think she moved. If you don't notice she's moved, she'll scare you the next time you bring your Monitor up.
+                -- Shadow Bonnie: Causes your office to go dark for 10 seconds and there is no way to avoid him.
+                -- Fredbear: Click his hat or get scared.
     -- Outputs
         -- Clicking Buttons
             -- 2 Doors
@@ -13,8 +79,22 @@ NeuralEvolution of Augmented Topologies
                     -- 3 Vents
                 -- Duct System
                     -- 2 Ducts
-        -- Keys
-            
+        -- Keys Bindings
+            -- 1: Power Generator
+            -- 2: Silent Ventilation
+            -- 3: Heater
+            -- 4: Power AC
+            -- 5: Global Music Box
+            -- 6/X: All off
+            -- Z: Flashlight
+            -- W: Close Forward Vent
+            -- A: Close Left Door
+            -- S: Monitor
+            -- D: Close Right Door
+            -- F: Close Side Vent
+            -- C: Catch Fish (Old Man Con.)
+            -- Enter: Close Ad (El Chip)
+            -- Spacebar: Toggle Desk Fan
     -- Activation Functions
         -- TanH
         -- Sigmoid
