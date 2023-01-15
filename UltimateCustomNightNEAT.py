@@ -55,6 +55,7 @@ class Player:
         pass
 
     #Allows the mouse to click in a certain x and y postion
+    #May not need this function
     def click(self, x, y):
         pyautogui.click(x, y, button="left")
 
@@ -79,10 +80,26 @@ class Player:
             Enter: "Close Ad (El Chip)",
             Spacebar: "Toggle Desk Fan"
         }
+        #Dictionary of all the cameras
+        camera_Dictionary = {
+            Cam1: r"D:\GitHub Repos\UCN-AI\UCN Reference Images\Camera Up Images\Cam1.png",
+            Cam2: r"D:\GitHub Repos\UCN-AI\UCN Reference Images\Camera Up Images\Cam2.png",
+            Cam3: r"D:\GitHub Repos\UCN-AI\UCN Reference Images\Camera Up Images\Cam3.png",
+            Cam4: r"D:\GitHub Repos\UCN-AI\UCN Reference Images\Camera Up Images\Cam4.png",
+            Cam5: r"D:\GitHub Repos\UCN-AI\UCN Reference Images\Camera Up Images\Cam5.png",
+            Cam6: r"D:\GitHub Repos\UCN-AI\UCN Reference Images\Camera Up Images\Cam6.png",
+            Cam7: r"D:\GitHub Repos\UCN-AI\UCN Reference Images\Camera Up Images\Cam7.png",
+            Cam8: r"D:\GitHub Repos\UCN-AI\UCN Reference Images\Camera Up Images\Cam8.png"
+        }
 
         #Presses the right key
         if key_Dictionary.keys() == key:
-            return pyautogui.keyDown(key)
+            if key != "S":
+                return pyautogui.keyDown(key)
+            else:
+                pyautogui.keyDown(key)
+                x, y = pyautogui.locateCenterOnScreen(camera_Dictionary[key])
+                pyautogui.click(x, y)
 
     #What to do for each animatronic
     def animatronic_Defense(self, animatronic):
@@ -146,7 +163,7 @@ class Player:
         #For Old Man Consequences
         #Location: Office, Action: Catch the fish with "c" key
         elif animatronic == "Old Man Consequences":
-            if pyautogui.locateOnScreen(r'D:\GitHub Repos\UCN-AI\UCN Reference Images\Old Man Consequences (Catching FIsh).png', confidence=0.9):
+            if pyautogui.locateOnScreen(r'D:\GitHub Repos\UCN-AI\UCN Reference Images\Old Man Consequences (Catching Fish).png', confidence=0.9):
                 press_Key("C")
 
         #For Dee Dee
