@@ -14,6 +14,8 @@ References
             -- https://medium.com/smileinnovation/training-neural-network-with-image-sequence-an-example-with-video-as-input-c3407f7a0b0f
             -- Example Video
                 -- https://www.youtube.com/watch?v=oGZGfZIVxn0
+            -- Possible Code
+                -- https://medium.com/analytics-vidhya/video-captioning-with-keras-511984a2cfff
 NeuralEvolution of Augmented Topologies
     -- Inputs
         -- Animatronics

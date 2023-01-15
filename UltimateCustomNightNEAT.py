@@ -17,9 +17,12 @@ This program trains an ai to learn to play the game Ultimate Custom Night
 
 #Global Variables
 GENERATION = 0
+
+#Gets the screen width and height
 SCREEN_WIDTH, SCREEN_HEIGHT = pyautogui.size()
 
 #FNAF
+#May not need this
 FREDDY = []
 CHICA = []
 BONNIE = []
@@ -35,6 +38,7 @@ class Player:
         self.y_Mouse = y
 
     #Finds the mouse position
+    #May not need this
     def mouse_Position(self):
         pass
 
@@ -56,11 +60,24 @@ class Animatronics:
         self.animatronic_Knowledge = animatronic_Knowledge
 
     #Finds the location of each animatronic
-    def animatronic_Location(self, pixel_Color):
+    def animatronic_Location(self, pixel_Color, animatronic_Knowledge):
         pass
 
     #What to do for each animatronic
-    def animatronic_Defense(self):
+    def animatronic_Defense(self, animatronic):
+
+        #For Freddy
+
+        #For Chica
+
+        #For Bonnie
+
+        #For Foxy
+
+        #For Golden Freddy
+
+        #For Phone Guy
+
         pass
 
 #Runs the main loop
