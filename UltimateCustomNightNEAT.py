@@ -17,6 +17,7 @@ This program trains an ai to learn to play the game Ultimate Custom Night
 
 #Global Variables
 GENERATION = 0
+SCREEN_WIDTH, SCREEN_HEIGHT = pyautogui.size()
 
 #FNAF
 FREDDY = []
@@ -37,13 +38,13 @@ class Player:
     def mouse_Position(self):
         pass
 
-    #Allows the mouse to click
-    def click(self):
-        pass
+    #Allows the mouse to click in a certain x and y postion
+    def click(self, x, y):
+        pyautogui.click(x, y, button="left")
 
     #Presses the correct button
     def press_Key(self, key):
-        pass
+        pyautogui.keyDown(key)
 
 #Takes care of the Animatronics
 class Animatronics:
@@ -68,6 +69,8 @@ def main(self, genomes, config):
     global GENERATION
     GENERATION += 1
 
+    run = True
+
     #Sets the knowledge of each animatronic
     animatronic_Knowledge = LearningTheAnimatronics()
 
@@ -84,6 +87,9 @@ def main(self, genomes, config):
         ge.fitness = 0
         genome.append(ge)
     pass
+
+    while run:
+        pass
 
 #Helps load the configuration file
 def run(config_file):
