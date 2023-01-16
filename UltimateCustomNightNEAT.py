@@ -30,18 +30,70 @@ SCREEN_WIDTH, SCREEN_HEIGHT = pyautogui.size()
 #pyautogui.click(x, y)
 ANIMATRONIC_LOCATION = pyautogui.locationOnScreen('.png', confidence=0.9) 
 
-#FNAF
+#Dictionary of all the animatronics with their names as elements
 #May not need this
-FREDDY = []
-CHICA = []
-BONNIE = []
-FOXY = []
-GOLDEN_FREDDY = []
-PHONE_GUY = []
+animatronics = {
+#FNAF
+Freddy: "Freddy",
+Chica: "Chica",
+Bonnie: "Bonnie",
+Foxy: "Foxy",
+Golden_Freddy: "Golden_Freddy",
+Phone_Guy: "Phone_Guy",
+#FNAF 2
+Toy_Freddy: "Toy_Freddy",
+Toy_Chica: "Toy_Chica",
+Toy_Bonnie: "Toy_Bonnie",
+Mangle: "Mangle",
+Marionette: "Marionette",
+BB: "BB",
+JJ: "JJ",
+Withered_Chica: "Withered_Chica",
+Withered_Bonnie: "Withered_Bonnie",
+#FNAF 3
+Nightmare_Freddy: "Nightmare_Freddy",
+Nightmare_Chica: "Nightmare_Chica",
+Nightmare_Bonnie: "Nightmare_Bonnie",
+Nightmare_Mangle: "Nightmare_Mangle",
+Nightmare_Marionette: "Nightmare_Marionette",
+Nightmare_BB: "Nightmare_BB",
+Nightmare_Fredbear: "Nightmare_Fredbear",
+Phantom_Freddy: "Phantom_Freddy",
+Phantom_Mangle: "Phantom_Mangle",
+Phantom_BB: "Phantom_BB",
+Springtrap: "Springtrap",
+Plushtrap: "Plushtrap",
 #FNAF World
-OLD_MAN_CONSEQUENCES = []
-DEE_DEE = []
-
+Old_Man_Consequences: "Old_Man_Consequences",
+Dee_Dee: "Dee_Dee",
+#FNAF: Sister Location
+Funtime_Foxy: "Funtime_Foxy",
+Baby: "Baby",
+Ballora: "Ballora",
+Minireena: "Minireena",
+Bonnet: "Bonnet",
+Lolbit: "Lolbit",
+Ennard: "Ennard",
+#FNAF: Pizzeria Simulator
+Rockstar_Freddy: "Rockstar_Freddy",
+Rockstar_Chica: "Rockstar_Chica",
+Rockstar_Bonnie: "Rockstar_Bonnie",
+Happy_Frog: "Happy_Frog",
+Mr_Hippo: "Mr_Hippo",
+Pig_Patch: "Pig_Patch",
+Nedd_Bear: "Nedd_Bear",
+Orville_Elephant: "Orville_Elephant",
+Helpy: "Helpy",
+Lefty: "Lefty",
+El_Chip: "El_Chip",
+Trash_and_the_Gang: "Trash_and_the_Gang",
+Molten_Freddy: "Molten_Freddy",
+Funtime_Chica: "Funtime_Chica",
+Shadow_Bonnie: "Shadow_Bonnie",
+Scrap_Baby: "Scrap_Baby",
+Fredbear: "Fredbear",
+William_Afton: "William_Afton"
+}
 #Takes care of the player
 class Player:
     
@@ -78,7 +130,9 @@ class Player:
             F: "Close Side Vent",
             C: "Catch Fish (Old Man Con.)",
             Enter: "Close Ad (El Chip)",
-            Spacebar: "Toggle Desk Fan"
+            Spacebar: "Toggle Desk Fan",
+            L: "LoL",
+            O: "lOl"
         }
         #Dictionary of all the cameras
         camera_Dictionary = {
@@ -90,6 +144,12 @@ class Player:
             Cam6: r"D:\GitHub Repos\UCN-AI\UCN Reference Images\Camera Up Images\Cam6.png",
             Cam7: r"D:\GitHub Repos\UCN-AI\UCN Reference Images\Camera Up Images\Cam7.png",
             Cam8: r"D:\GitHub Repos\UCN-AI\UCN Reference Images\Camera Up Images\Cam8.png"
+        }
+        RedBlue_Button = {
+            CamSystem: r"D:\GitHub Repos\UCN-AI\UCN Reference Images\Camera Up Images\CamSystem.png",
+            DuctSystem: r"D:\GitHub Repos\UCN-AI\UCN Reference Images\Camera Up Images\DuctSystem.png",
+            VentSystem: r"D:\GitHub Repos\UCN-AI\UCN Reference Images\Camera Up Images\VentSystem.png",
+            ResetVentilation: r"D:\GitHub Repos\UCN-AI\UCN Reference Images\Camera Up Images\ResetVentilation.png"
         }
 
         #Presses the right key
@@ -113,22 +173,28 @@ class Player:
 
         #For Chica
         #Location: Kitchen, Action: Change the music box when she stops making noise
+        elif animatronic == "Chica":
+            press_Key("S")
 
         #For Bonnie
         #Location: Cove, Action: Figure on the desk means no camera on cove
+        elif animatronic == "Bonnie":
+            pass
 
         #For Foxy
         #Location: Office, Action: , Tips: Will scare next time the monitor is brought up if all 4 pieces are in the office
+        elif animatronic == "Foxy":
+            pass
 
         #Golden Freddy
         #Location: Office, Action: Move the Camera
-        if animatronic == "Golden Freddy":
+        elif animatronic == "Golden Freddy":
             x, y = pyautogui.locateCenterOnScreen(r'D:\GitHub Repos\UCN-AI\UCN Reference Images\Mask (Red Button).png', confidence=1)
             pyautogui.moveTo(x, y)
 
         #For Phone Guy
         #Location: Office, Action: Click the mute button, Tips: Wants to mute due to audio
-        if pyautogui.locateOnScreen(r'D:\GitHub Repos\UCN-AI\UCN Reference Images\Phone Guy (Mute Button).png'):
+        elif pyautogui.locateOnScreen(r'D:\GitHub Repos\UCN-AI\UCN Reference Images\Phone Guy (Mute Button).png'):
             x, y = pyautogui.locateCenterOnScreen(r'D:\GitHub Repos\UCN-AI\UCN Reference Images\Phone Guy (Mute Button).png')
             pyautogui.click(x, y)
 
@@ -168,6 +234,8 @@ class Player:
 
         #For Dee Dee
         #Location: Office, Action: None, Tips: Adds a new animatronic
+        elif animatronic == "Dee Dee":
+            pass
 
         #endregion
 
@@ -182,8 +250,6 @@ class Player:
 
 
         #endregion
-
-        pass
 
 #Takes care of the Animatronics
 class Animatronics:
