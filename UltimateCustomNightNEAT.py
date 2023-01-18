@@ -180,7 +180,7 @@ class Player:
             press_Key("S")
 
         #For Bonnie
-        #Location: Cove, Action: Figure on the desk means no camera on cove
+        #Location: Cove / Cam 5, Action: Figure on the desk means no camera on cove
         elif animatronic == "Bonnie":
             pass
 
@@ -226,7 +226,7 @@ class Player:
             pass
 
         #For Toy Freddy
-        #Location: Parts and Services, Action: Click the cameras on Freddy's screen, Tips: Don't let Mr. Hugs into Freddy's office
+        #Location: Parts and Services / Cam 8, Action: Click the cameras on Freddy's screen, Tips: Don't let Mr. Hugs into Freddy's office
         if animatronic == "Toy Freddy":
             pass
 
@@ -281,7 +281,56 @@ class Player:
 
         #region FNAF 4
 
+        #For Nightmare Freddy
+        #Location: Office, Action: Shine flashlight on him, Tips:
+        if animatronic == "Nightmare Freddy":
+            press_Key("Z")
 
+        #For Nightmare Chica
+        #Location: Slowly approaches, Action: Use the heater, Tips:
+        if animatronic == "Nightmare Chica":
+            press_Key("3")
+
+        #For Nightmare Bonnie
+        #Location: Right side / Cam 2, Action: Keep right door closed, Tips: Can go the route of buying the plush
+        if animatronic == "Nightmare Bonnie":
+            press_Key("D")
+
+        #For Nightmare Mangle
+        #Location: Right Side / Cam 2, Action: Keep right door closed, Tips: Can go the route of buying the plush
+        if animatronic == "Nightmare Mangle":
+            press_Key("D")
+
+        #For Nightmare Marionne
+        #Location: Office, Action: Avoid mousing over, Tips:
+        if animatronic == "Nightmare Marionne":
+            pass
+
+        #For Nightmare BB
+        #Location: Office, Action: Shine flashlight on him, Tips:
+        if animatronic == "Nightmare BB":
+            press_Key("Z")
+
+        #For Nightmare Fredbear
+        #Location: Left side / Cam 2, Action: Close the left door, Tips:
+        if animatronic == "Nightmare Fredbear":
+            press_Key("A")
+
+        #For Nightmare
+        #Location: Right Side / Cam 1, Action: Close the right door, Tips:
+        if animatronic == "Nightmare":
+            press_Key("D")
+
+        #For Jack-O-Chica
+        #Location: Left and Right Side / Cam 1 and 2, Action: Close the left and right door, Tips:
+        if animatronic == "Jack-O-Chica":
+            press_Key("A")
+            press_Key("D")
+
+        #For Plushtrap
+        #Location: Office / Monitor, Action: Click on him, Tips:
+        if animatronic == "Plushtrap":
+            pass
 
         #endregion
 
@@ -302,7 +351,40 @@ class Player:
 
         #region FNAF: Sister Location
 
+        #For Funtime Foxy
+        #Location: Cove, Action: Don't Change to Cam 5, Tips: 
+        if animatronic == "Funtime Foxy":
+            pass
 
+        #For Ballora
+        #Location: Left or Right Door / Cam 1 or 2, Action: Close either the left or right door, Tips: It depends on where the audio cue is located 
+        if animatronic == "Ballora":
+            pass
+
+        #For Minireena
+        #Location: Screen, Action: Nothing, Tips: Just there to cover obscure vision 
+        if animatronic == "Minireena":
+            pass
+
+        #For Baby
+        #Location: Right Side / Cam 2, Action: Keep right door closed, Tips: Can go the route of buying the plush
+        if animatronic == "Baby":
+            press_Key("D")
+
+        #For Bonnet
+        #Location: Office, Action: Click her nose, Tips: 
+        if animatronic == "Bonnet":
+            pass
+
+        #For Lolbit
+        #Location: N/A, Action: Type LOL, Tips: When the audio cue occurs 
+        if animatronic == "Lolbit":
+            pass
+
+        #For Ennard
+        #Location: Front Vent, Action: Close front vent, Tips: Only can be heard from the audio cue 
+        if animatronic == "Ennard":
+            pass
 
         #endregion
 
