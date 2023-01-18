@@ -161,8 +161,11 @@ class Player:
                 x, y = pyautogui.locateCenterOnScreen(camera_Dictionary[key])
                 pyautogui.click(x, y)
 
+        #Center mouse
+        pyautogui.moveTo(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2)
+
     #What to do for each animatronic
-    def animatronic_Defense(self, animatronic):
+    def animatronic_Defense(self, animatronic): #<-- May add location and action as parameters
 
         #region FNAF
 
@@ -202,19 +205,77 @@ class Player:
 
         #region FNAF 2
 
+        #For BB
+        #Location: Side Vent, Action: Shut the vent, Tips: If in then he will disable the flashlight
+        if animatronic == "BB":
+            press_Key("F")
 
+        #For JJ
+        #Location: Side Vent, Action: Shut the vent, Tips: If in then she will disable the doors
+        if animatronic == "JJ":
+            press_Key("F")
+
+        #For Marionette
+        #Location: Office, Action: Wind the music box, Tips: If escape then the ventalation drains faster
+        if animatronic == "Marionette":
+            press_Key("5")
+
+        #For Mangle
+        #Location: Vent, Action: Vent Snare, Tips: Wont leave once she arrives
+        if animatronic == "Mangle":
+            pass
+
+        #For Toy Freddy
+        #Location: Parts and Services, Action: Click the cameras on Freddy's screen, Tips: Don't let Mr. Hugs into Freddy's office
+        if animatronic == "Toy Freddy":
+            pass
+
+        #For Toy Chica
+        #Location: Office, Action: Flip the Mask on and look directly at, Tips: Enters on the left and is faster than Toy Bonnie
+        if animatronic == "Toy Chica":
+            x , y = pyautogui.locateCenterOnScreen(r'D:\GitHub Repos\UCN-AI\UCN Reference Images\Mask (Red Button).png')
+            pyautogui.moveTo(x, y)
+        
+        #For Toy Bonnie
+        #Location: Office, Action: Flip the mask on and look directly at, Tips: Enters through the right trapdoor
+        if animatronic == "Toy Bonnie":
+            x , y = pyautogui.locateCenterOnScreen(r'D:\GitHub Repos\UCN-AI\UCN Reference Images\Mask (Red Button).png')
+            pyautogui.moveTo(x, y)
+
+        #For Whithered Chica
+        #Location: Vent, Action: Vent Snare and Door, Tips: She can get stuck in the vent door preventing Ennard, Molten Freddy and Springtrap from entering
+        if animatronic == "Whithered Chica":
+            pass
+
+        #For Whithered Bonnie
+        #Location: Office, Action: Flip the mask on after, Tips: Has audio cues and attacks when fliping down the camera
+        if animatronic == "Whithered Bonnie":
+            x , y = pyautogui.locateCenterOnScreen(r'D:\GitHub Repos\UCN-AI\UCN Reference Images\Mask (Red Button).png')
+            pyautogui.moveTo(x, y)
 
         #endregion
         
         #region FNAF 3
 
+        #For Phantom Freddy
+        #Location: Office, Action: Shine flashlight on him, Tips:
+        elif animatronic == "Phantom Freddy":
+            press_Key("Z")
 
-        
-        #endregion
+        #For Phantom Mangle
+        #Location: Monitor, Action: Close the monitor, Tips: Will make noise in the office
+        elif animatronic == "Phantom Mangle":
+            pass
 
-        #region FNAF 3
+        #For Phantom BB
+        #Location: Monitor, Action: CLose or change camera, Tips:
+        elif animatronic == "Phantom BB":
+            pass
 
-
+        #For Springtrap
+        #Location: Front Vent, Action: Close Front Vent, Tips:
+        elif animatronic == "Springtrap":
+            press_Key("W")
 
         #endregion
 
