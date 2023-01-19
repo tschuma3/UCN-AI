@@ -390,7 +390,100 @@ class Player:
 
         #region FNAF: Pizzeria Simulator
 
+        #For Happy Frog
+        #Location: Vent System, Action: Audion lure, Tips: Heat does nothing for her
+        if animatronic == "Happy Frog":
+            pass
 
+        #For Mr. Hippo
+        #Location: Vent System, Action: Audio lure and the heater, Tips: Faster than Happy Frog
+        if animatronic == "Mr Hippo":
+            pass
+
+        #For Pigpatch
+        #Location: Vent System, Action: Audio lure and the heater, Tips: Faster than Mr. Hippo
+        if animatronic == "Pigpatch":
+            pass
+
+        #For Nedd Bear
+        #Location: Vent System, Action: Audio lure (only works 50% of the time) and the heater, Tips: Faster than Pigpatch
+        if animatronic == "Nedd Bear":
+            pass
+
+        #For Orville Elephant
+        #Location: Vent System, Action: Audio lure (only works 10% of the time) and the heater, Tips: Faster than Nedd Bear
+        if animatronic == "Orville Elephant":
+            pass
+
+        #For Rockstar Freddy
+        #Location: Office, Action: Turn on the heater or pay Faz-Coins, Tips: Heater can be turned on for a few seconds
+        if animatronic == "Rockstar Freddy":
+            press_Key("3")
+
+        #For Rockstar Chica
+        #Location: Left or Right Doors / Cam 1 or 2, Action: Double click the wet floor sign in front of the correct door, Tips:
+        if animatronic == "Rockstar Chica":
+            pass
+
+        #For Rockstar Bonnie
+        #Location: Office, Action: Click on the parrot for a bounus (don't have to click on it though), Tips:
+        if animatronic == "Rockstar Bonnie":
+            pass
+
+        #For Helpy
+        #Location: Office, Action: Click to get rid of, Tips:
+        if animatronic == "Helpy":
+            pass
+
+        #For El Chip/
+        #Location: Screen, Action: Press enter, Tips:
+        if animatronic == "El Chip":
+            press_Key("Enter")
+
+        #For Trash and the Gang
+        #Location: Screen, Action: Nothing, Tips: Just there to annoy
+        if animatronic == "Trash and the Gang":
+            pass
+
+        #For Lefty
+        #Location: Office, Action: Wind the global music box, Tips: Annoyed by heat and noise
+        if animatronic == "Lefty":
+            press_Key("5")
+
+        #For Molten Freddy
+        #Location: Vents, Action: Close the vent, Tips: He is fast and can be tracked in the monitor
+        if animatronic == "Molten Freddy":
+            pass
+
+        #For Funtime Chica
+        #Location: Screen, Action: Nothing, Tips: Just there to annoy
+        if animatronic == "Funtime Chica":
+            pass
+
+        #For Shadow Bonnie
+        #Location: Office, Action: Nothing, Tips: Causes darkness for 10 seconds
+        if animatronic == "Shadow Bonnie":
+            pass
+
+        #For Music Man
+        #Location: Nothing, Action: Keep the noise down, Tips:
+        if animatronic == "Music Man":
+            pass
+
+        #For Scrap Baby
+        #Location: Office, Action: Shock her when she moves, Tips:
+        if animatronic == "Scrap Baby":
+            pass
+
+        #For Fredbear
+        #Location: Office, Action: Click his hat, Tips:
+        if animatronic == "Fredbear":
+            pass
+
+        #For William Afton
+        #Location: Right Door, Action: Close right door, Tips: Comes once a night and the lights flicker if he is there
+        if animatronic == "William Afton":
+            press_Key("D")
 
         #endregion
 
