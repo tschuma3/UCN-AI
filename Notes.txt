@@ -114,6 +114,7 @@ NeuralEvolution of Augmented Topologies
     -- Activation Functions
         -- TanH
         -- Sigmoid
+        -- Relu
     -- Population
         -- 1
         -- 100
