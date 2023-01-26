@@ -16,7 +16,7 @@ References
                 -- https://www.youtube.com/watch?v=oGZGfZIVxn0
             -- Possible Code
                 -- https://medium.com/analytics-vidhya/video-captioning-with-keras-511984a2cfff
-NeuralEvolution of Augmented Topologies
+NeuralEvolution of Augmented Topologies or Deep Convolutional Q-Learning
     -- Inputs
         -- Animatronics
             -- FNAF
