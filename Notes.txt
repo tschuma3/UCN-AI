@@ -16,7 +16,7 @@ References
                 -- https://www.youtube.com/watch?v=oGZGfZIVxn0
             -- Possible Code
                 -- https://medium.com/analytics-vidhya/video-captioning-with-keras-511984a2cfff
-NeuralEvolution of Augmented Topologies or Deep Convolutional Q-Learning
+NeuralEvolution of Augmented Topologies 
     -- Inputs
         -- Animatronics
             -- FNAF
@@ -141,3 +141,12 @@ NeuralEvolution of Augmented Topologies or Deep Convolutional Q-Learning
         -- DirectKeys?
             -- Possibly for mouse position
         -- PyAutoGui
+
+Deep Convolutional Q-Learning
+    -- Image Preprocessing
+    -- Experience Replay
+    -- Brain
+    -- Body
+    -- Eligibility Trace
+    -- TD = Q(s,a) + gamma * Q(s1, a1)
+    -- CNN
