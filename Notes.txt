@@ -162,3 +162,8 @@ Asynchronous Advantage Actor-Critic (A3C)
         --Having multiple agents attack a certain environment (similar to NEAT)
     -- Advantage
         -- Advantage = Q(s, a) - V(s)
+
+Video Pre Training
+    -- https://github.com/openai/Video-Pre-Training
+
+Inverse Dynamics Model 
